@@ -20,7 +20,7 @@
 在您的终端或命令行中执行以下命令：
 
 ```sh
-python universal_decryptor.py <输入文件> <输出文件> [可选参数]
+python ons_decryptor.py <输入文件> <输出文件> [可选参数]
 ```
 
 **参数说明:**
@@ -35,7 +35,7 @@ python universal_decryptor.py <输入文件> <输出文件> [可选参数]
 **示例 1：解密标准文件 (如 `onscript.nt2`, `nscript.dat` 等)**
 
 ```sh
-python universal_decryptor.py onscript.nt2 decrypted_script.txt
+python ons_decryptor.py onscript.nt2 decrypted_script.txt
 ```
 
 **示例 2：解密 `nscript.___` (需要提供外部密钥表)**
@@ -43,7 +43,7 @@ python universal_decryptor.py onscript.nt2 decrypted_script.txt
 `nscript.___` 格式的解密依赖一个从游戏主程序中提取的、256字节的密钥表。
 
 ```sh
-python universal_decryptor.py nscript.___ decrypted_script.txt --key-file path/to/your/key.bin
+python ons_decryptor.py nscript.___ decrypted_script.txt --key-file path/to/your/key.bin
 ```
 
 ## 支持的格式详解
