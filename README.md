@@ -62,5 +62,4 @@ python ons_decryptor.py nscript.___ decrypted_script.txt --key-file path/to/your
 ## 免责声明
 
 * 本工具仅供学习、研究和个人数据备份使用。
-* 所有解密算法均来自您所提供的 `ScriptHandler.cpp` 文件，请确保您有权分析和使用相关文件。
 * 请在符合当地法律法规的前提下使用本工具。
